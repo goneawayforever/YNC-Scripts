@@ -1,0 +1,181 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+
+
+function Script()
+    local Window = Library.CreateLib("YNC Scripts", "Synapse")
+
+
+
+    local Farm = Window:NewTab("Farm")
+    local FarmSection = Farm:NewSection("Main")
+
+
+    -- Script
+
+    FarmSection:NewButton("ATM 1", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1800.20007, 0.200000018, -34.1500244, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+
+    FarmSection:NewButton("ATM 2", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1900.05994, 5.06338024, 103.23793, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    FarmSection:NewButton("ATM 3", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1685.69995, 2.49999762, 126.200348, -1.26361847e-05, -1.66893005e-06, 0.99999994, -0.258770198, 0.965938926, -1.66893005e-06, -0.965938866, -0.258770198, -1.26361847e-05)
+    end)
+
+    FarmSection:NewButton("Card Place", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1531.13831, 2.44381404, -309.519073, 0.544665456, -0, -0.838653445, 0, 1, -0, 0.838653445, 0, 0.544665456)
+    end)
+
+    FarmSection:NewButton("NightClub Safe", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1169.93262, -13.5101118, -118.245132, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    FarmSection:NewButton("NightClub DropOff", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1305.32202, 1.80000055, -191.483887, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    FarmSection:NewButton("Chase Safe", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2324.0564, 2.77611637, 131.680298, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    FarmSection:NewButton("Chase DropOff", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2369.03857, 5.75, -20.2341309, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    FarmSection:NewButton("Apartment Check Printer", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2452.79028, 110.34993, -214.399796, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    local Teleports = Window:NewTab("Teleports")
+    local TeleportsSection = Teleports:NewSection("Teleports")
+
+
+    -- Script
+
+    TeleportsSection:NewButton("Gun Shop", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1633.49792, 7.20000648, -92.3562927, 0.766061246, 0, 0.642767608, 0, 1, 0, -0.642767608, 0, 0.766061246)
+    end)
+
+
+    TeleportsSection:NewButton("Gas Station", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1928.35828, 5.08958483, 89.2002106, 0.379770279, 0.0703199133, -0.922404289, 0.039611306, 0.994956076, 0.092159614, 0.924232364, -0.0715371296, 0.37506929)
+    end)
+
+
+    TeleportsSection:NewButton("Car Delership", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1415.40015, 5.54999971, -115.200073, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+
+    TeleportsSection:NewButton("IceBox", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1986.16223, 0.516550601, 43.8413658, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+
+    TeleportsSection:NewButton("Box Job", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1920.59985, 1.67871177, -51.2000465, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+
+    TeleportsSection:NewButton("Janitor Job", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1655.17627, 4.9712224, 39.4107742, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+
+    TeleportsSection:NewButton("NightClub", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1194.62439, 5.49234295, -75.8100357, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    TeleportsSection:NewButton("Chase", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2367.2207, 5.54999971, 100.561501, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+
+    TeleportsSection:NewButton("Apartments", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2452.79028, 110.34993, -214.399796, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+
+
+    -- Turfs
+
+
+    local Turfs = Window:NewTab("Turfs")
+    local TurfsSection = Turfs:NewSection("Turfs")
+
+
+    -- Script
+
+    TurfsSection:NewButton("YGG", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1642.38452, 0.422223985, -537.006714, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+
+    TurfsSection:NewButton("OP", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1224.63647, 0.522224009, 76.4343185, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+
+    TurfsSection:NewButton("EOK", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2272.54932, 2.14005923, -424.155457, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+
+    TurfsSection:NewButton("STB", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1832.0791, 2.15726089, 561.699585, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+
+    TurfsSection:NewButton("GM", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1656.0791, 2.14669037, 606.07135, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+
+    TurfsSection:NewButton("THM", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1664.45435, 1.60224152, 739.005371, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+
+    TurfsSection:NewButton("BBG", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1786.4519, 1.60224152, 724.667053, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    TurfsSection:NewButton("TD", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1664.45435, 1.60224152, 810.505371, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    TurfsSection:NewButton("SFF", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1786.4519, 1.60224152, 796.667053, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    TurfsSection:NewButton("BTA", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1664.45435, 1.60224152, 882.89209, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    TurfsSection:NewButton("OTB", "!!!", function() -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1664.45435, 1.60224152, 960.092102, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    -- Credits
+
+
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Join Discord In YoutTube Bio!")
+
+
+    CreditsSection:NewLabel("Created by YNC Scripts aka owner Feezy")
+    
+        CreditsSection:NewLabel("Go in Discord and Dm bt6u or bt6i for help or questions")
+
+
+end
+
+if game.PlaceId == 12077443856 then
+    Script()
+else
+    game.Players.LocalPlayer:Kick("This script is only compatible with Cali Shootout.")
+end
