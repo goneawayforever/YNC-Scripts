@@ -12909,7 +12909,7 @@ Script() -- call the script immediately
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Script loaded enjoy! (YNC Scripts)",
-Text = "Sub And Join Discord!", 
+Text = "Thanks For Supporting, Sub And Join Discord!", 
 
 Button1 = "Ok",
 Duration = 30 
