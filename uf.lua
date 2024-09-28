@@ -12878,6 +12878,22 @@ task.spawn(function()
 end)
 end)
 
+    local Tab = Window:NewTab("ParkTps")
+    local ParkTpsSection = Tab:NewSection("Tp")
+    ParkTpsSection:NewButton("2s, First", "First twos court", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-239.820328, 4.34948635, -30.1398087, 0.999617934, 0.00108216051, 0.027617678, -4.31900844e-08, 0.999233305, -0.039152056, -0.0276388638, 0.0391370803, 0.998851478)
+    end)
+    ParkTpsSection:NewButton("2s, Second", "Second twos court", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-240.117767, 4.3570447, 31.5879478, -0.999688506, 0.000960940262, 0.0249343645, 1.27183739e-07, 0.999258459, -0.0385039449, -0.0249528773, -0.0384919345, -0.998947263)
+    end)
+    ParkTpsSection:NewButton("3s, First", "Third First court", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(239.749252, 4.35962772, 27.954073, -0.999997079, 9.60289035e-05, 0.00241860002, 1.68802217e-08, 0.999212503, -0.0396782644, -0.0024204962, -0.0396781564, -0.999209583)
+    end)
+
+    ParkTpsSection:NewButton("3s, Second", "Third Sencond court", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(240.34523, 4.35340071, -31.1183167, 0.998932958, -0.0017638437, -0.0461527146, 1.29570253e-07, 0.999270618, -0.0381864831, 0.0461864062, 0.038145721, 0.998204231)
+    end)
+
 
 -- Credits
 
