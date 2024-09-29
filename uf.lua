@@ -2,7 +2,7 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 function Script()
-    local Window = Library.CreateLib("YNC Scripts", "Synapse")
+    local Window = Library.CreateLib("YNC Scripts (Free)", "Synapse")
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
