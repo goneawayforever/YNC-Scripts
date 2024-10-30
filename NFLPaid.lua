@@ -5,8 +5,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "KeySystem", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
-	Name = "You're in!",
-	Content = "You're In The Special LEAN party",
+	Name = "Hello!",
+	Content = "You Were Invited To The Diddy Party",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
