@@ -11,7 +11,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-_G.Key = "kaZQ?ZhfxHgw4;++E@}Z:B&+UUHVX,.&A3YQH8b|fb;WV1B*g*>uU=,XVm4" -- You Put Your Key Here
+_G.Key = "ilovediddyanduser" -- You Put Your Key Here
 _G.KeyInput = "string"
 
 function MakeScriptHub()
